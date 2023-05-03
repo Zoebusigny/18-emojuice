@@ -23,9 +23,12 @@ img {
 
 header {
   background: url(../img/Fond-ecran.png);
-  padding:100px;
   padding: 30px 20px 10px;
   background-size: cover;
+}
+
+.selection-light p{
+  padding-bottom: 5px;
 }
 
 .slogan {
@@ -34,7 +37,6 @@ header {
   padding-left: 30px;
   padding-right: 20px;
   color: #7db96f;
-  font-size: 15px;
   font-size: 20px;
   font-family: 'Quattrocento', serif;
 }
@@ -45,36 +47,140 @@ header {
   align-items: center;
   margin: 5px 0px;
   padding: 10px 0px;
-  
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
 }
 
 .cta {
   background-color: #7db96f;
-  color: #e6f3ff;
+  color: #ffffff;
   border-radius: 13px;
-  padding: 5px 20px;
-  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0px;
+  font-size: 18px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
 }
 
 .cta-light {
-  background-color: #e6f3ff;
+  background-color: #ffffff;
   color: #7db96f;
   padding: 10px 20px;
 }
 
 .section-light {
-  background-color: #e6f3ff;
+  background: #ffffff;
   text-align: center;
-  padding: 60px;
+  padding: 70px;
 }
 
-.fruit{
+.section-light p {
+  font-family: 'Quattrocento', serif;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-dark h2 {
+  color: #ffffff;
+  margin: 20px;
+}
+
+.fruit img{
+  margin: auto;
+  width: 27px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fruit {
   display: flex;
-  align-items: center ;
-  width: 30px; 
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .section-dark {
   background-color: #7db96f;
   padding: 30px;
 }
+
+.section-dark h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  margin: 2px;
+}
+
+a {
+  font-family: 'Maven Pro', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-dark p {
+  font-family: 'Quattrocento', serif;
+  color: #00000069;
+}
+
+p {
+  margin: 2px;
+}
+
+.button {
+  border-radius: 25px;
+  background: #e6f3ff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 30%;
+  margin: 10px 0;
+  padding-left: 180px;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.button-yellow {
+  background: #fcf7d6;
+}
+
+.button-green {
+  background: #d0f1ae;
+}
+
+.button-brown {
+  background: #cdc4b0;
+}
+
+.button-pink {
+  background: #e2a2b1;
+}
+
+footer .section-light {
+ padding: 20px;
+}
+footer {
+  background: #ffffff;
+  color: #7db96f;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer h2{
+  font-size: 24px;
+}
+ footer p{
+  font-family: 'Maven Pro', sans-serif;
+  margin:50px 70px;
+  font-size: 12px;
+ }
