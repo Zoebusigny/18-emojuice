@@ -8,3 +8,56 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: url(../img/Fond-ecran.png);
+  padding:100px;
+  background-size: cover;
+}
+
+.slogan {
+  text-align: center;
+  padding-bottom: 5px;
+  color: #7db96f;
+  font-size: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 10px 0px;
+  
+}
+
+.cta {
+  background-color: #7db96f;
+  color: #e6f3ff;
+  border-radius: 13px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.cta-light {
+  background-color: #e6f3ff;
+  color: #7db96f;
+  padding: 10px 20px;
+}
+
+.section-light {
+  background-color: #e6f3ff;
+  text-align: center;
+  padding: 60px;
+}
+
+.fruit{
+  display: flex;
+  align-items: center ;
+  width: 30px; 
+}
+
+.section-dark {
+  background-color: #7db96f;
+  padding: 30px;
+}
